@@ -1,0 +1,30 @@
+.bttn {
+  width: 128px;
+  height: 42px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.06);
+  border-radius: 6px;
+  font-family: Arial;
+  font-size: 14px;
+  background-color: #ffffff;
+  color: #d64900;
+  padding: 9px 17px;
+  text-decoration: none;
+  border: none;
+}
+
+.nav-link {
+  font-family: Sharp Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  /* identical to box height, or 171% */
+
+  color: #6b7280;
+}
+
+@media (min-width: 768px) {
+  .nav-item {
+    padding-left: 12%;
+  }
+}
