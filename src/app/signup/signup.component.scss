@@ -99,3 +99,15 @@
     margin-top: 2%;
   }
 }
+
+@media (max-width: 991px) {
+  .vanish2 {
+    display: none;
+  }
+}
+
+@media (min-width: 992px) {
+  .vanish {
+    display: none;
+  }
+}
